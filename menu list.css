@@ -88,7 +88,7 @@ body {
 .container-judul {
   margin: 0 4%;
   font-family: "Nunito", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   text-shadow: var(--shadow);
   color: white;
   text-decoration: overline;
@@ -119,6 +119,7 @@ body {
 
 .card-text {
   font-size: 20px;
+  text-decoration: underline;
 }
 
 
@@ -136,6 +137,10 @@ body {
     font-size: 25px;
     position: relative;
     top: -8px;
+  }
+
+  .container-judul {
+    font-size: 25px;
   }
 
   .container-content {
