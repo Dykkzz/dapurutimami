@@ -155,7 +155,11 @@ body {
   }
 
   .container-judul {
-    font-size: 25px;
+    font-size: 30px;
+  }
+
+  .container-judul1 {
+    font-size: 30px;
   }
 
   .container-content {
