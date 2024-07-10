@@ -1,0 +1,103 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ff7f9f;
+}
+
+:root {
+  --shadow: 0 5px 5px rgb(0 0 0 / 0.5);
+  --fontHand: "Playwrite PL", cursive;
+}
+
+.container-navbar {
+  background-color: #ff5a83;
+}
+
+.navbar {
+  background-color: #ff5a83;
+}
+
+.navbar-brand {
+  text-shadow: var(--shadow);
+}
+
+.text-judul {
+  font-size: 23px;
+  font-family: "Nunito", sans-serif;
+}
+
+.text-isi-nav {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+.dropdown-menu {
+  background-color: #ff7f9f;
+}
+
+.text-hover {
+  color: white;
+}
+
+.text-hover1 {
+  color: white;
+}
+
+.text-hover:hover {
+  text-decoration: overline;
+  color: rgb(255, 33, 70);
+}
+
+.text-hover1:hover {
+  color: rgb(255, 33, 70);
+  background-color: #ff7f9f;
+}
+
+.text-container {
+  text-shadow: var(--shadow);
+  font-family: "Nunito", sans-serif;
+  color: white;
+  position: relative;
+  padding-top: 40px;
+  height: 100%;
+  /* background-color: rgb(32, 32, 32); */
+}
+
+.text-content:hover {
+  cursor: default;
+}
+
+.text-content-isi-judul {
+  font-size: 50px;
+  font-family: var(--fontHand);
+}
+
+.text-content-isi {
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  color: rgb(255, 41, 77);
+  text-shadow: 0 2px 3px rgb(0 0 0 / 0.5);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 476px) {
+  .text-content-isi-judul {
+    font-size: 30px;
+  }
+
+  .text-content-isi {
+    font-size: 25px;
+    position: relative;
+  }
+}
