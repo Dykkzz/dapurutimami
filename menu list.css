@@ -98,6 +98,19 @@ body {
   margin-top: 20px;
 }
 
+.container-judul1 {
+  margin: 0 4%;
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  text-shadow: var(--shadow);
+  color: white;
+  text-decoration: overline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
 .container-content {
   margin: 0 4%;
   display: flex;
@@ -110,6 +123,8 @@ body {
 
 .card {
   text-align: center;
+  border: 3px solid #ff3064;
+  border-radius: 15px;
 }
 
 .card-header {
