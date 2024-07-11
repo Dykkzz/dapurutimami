@@ -3,5 +3,6 @@ function cekProduk() {
 }
 
 function order() {
-  location.href = 'http://wa.me/+6282143514041'
+  // location.href = 'http://wa.me/+6282143514041'
+  alert('COMING SOON YA')
 }
