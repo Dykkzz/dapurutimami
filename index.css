@@ -74,7 +74,7 @@ body {
   font-family: "Nunito", sans-serif;
   color: white;
   position: relative;
-  padding-top: 40px;
+  margin-top: 10px;
   height: 100%;
   /* background-color: rgb(32, 32, 32); */
 }
@@ -91,9 +91,17 @@ body {
 .text-content-isi {
   font-size: 30px;
   position: relative;
+  left: -19px;
   top: -10px;
   color: rgb(255, 41, 77);
   text-shadow: 0 2px 3px rgb(0 0 0 / 0.5);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
 }
 
 .btn {
@@ -151,8 +159,13 @@ body {
     top: -7px;
   }
 
+  .btn {
+    position: relative;
+    top: -18px;
+  }
+
   .text-content-footer {
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     top: -8px;
   }
