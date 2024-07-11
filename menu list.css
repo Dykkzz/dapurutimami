@@ -125,6 +125,7 @@ body {
   text-align: center;
   border: 3px solid #ff3064;
   border-radius: 15px;
+  box-shadow: var(--shadow);
 }
 
 .card-header {
@@ -168,5 +169,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
   }
 }
